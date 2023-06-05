@@ -1,5 +1,5 @@
 from django.urls import path
-from .views import panel,displayForm, insertData, deleteData
+from .views import panel,displayForm, insertData, deleteData, editData, updateData
 
 urlpatterns = [
     path('', panel, name="panel"),
@@ -7,5 +7,7 @@ urlpatterns = [
     path('displayForm', displayForm, name="displayForm"),
     # path for article's content
     path('insertData', insertData, name="insertData"),
-    path('deleteData/<int:id>', deleteData, name="deleteData")
+    path('deleteData/<int:id>', deleteData, name="deleteData"),
+    path('editData/<int:id>', editData, name="editData"),
+    path('updateData/<int:id>', updateData, name="updateData")
 ]

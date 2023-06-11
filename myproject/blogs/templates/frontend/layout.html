@@ -179,7 +179,7 @@
                             <div class="link-widget">
                                 <ul>
                                     {% for category in categories %}
-                                        <li><a href="{% url 'searchCategory' category.id %}">{{category.name}} <span>(21)</span></a></li>
+                                        <li><a href="{% url 'searchCategory' category.id %}">{{category.name}} <span>{{categories.category_id}}</span></a></li>
                                     {% endfor %}
                                 </ul>
                             </div><!-- end link-widget -->

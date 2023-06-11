@@ -9,7 +9,7 @@ def index(request):
     # return HttpResponse("<h1>Hello World! I am Django Framework!</>")
     categories = Category.objects.all()
     blogs = Blogs.objects.all()
-    latest = Blogs.objects.all().order_by('-pk')[:4]
+    latest = Blogs.objects.all().order_by('-pk')[:2]
 
     # popularity articles, gets the highest number of views for three articles
     popular = Blogs.objects.all().order_by('-views')[:3]

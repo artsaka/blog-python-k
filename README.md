@@ -4,6 +4,9 @@
 
 The Blog web application project is built with Django as the backend and Bootstrap as the frontend.
 
+![blogpage](https://github.com/artsaka/blog-python-k/assets/103473820/9ae6b394-23e5-4b3e-bcfd-93b36a9529e6)
+
+
 ## Installation Instructions
 
 If you are interested in working on this project or developing your own version of it, carefully follow the instructions outlined below;
